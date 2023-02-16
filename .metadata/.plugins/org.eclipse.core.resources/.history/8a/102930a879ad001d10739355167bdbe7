@@ -1,0 +1,15 @@
+package com.javastack.spring.mvc.repositorites;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.javastack.spring.mvc.models.Book;
+
+@Repository
+public interface BookRepository extends CrudRepository<Book, Long> {
+	List<Book> findAll();
+	List<Book> findbyLanguageContaining(String search);
+
+}

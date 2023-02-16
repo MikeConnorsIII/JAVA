@@ -1,0 +1,24 @@
+package com.codingdojo.daikichi.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DaikichiController {
+	@GetMapping("/daikichi")
+	public String index() {
+		return "Welcome";
+	}
+	
+	@GetMapping("/daikichi/{city}")
+	public String tomorrow(@RequestParam("city") String city) {
+	return "Congratulations! You will soon travel to " + city;
+}
+	
+	@GetMapping("/daikichi/today")
+	public String today() {
+	return "Today you will find luck in all your endeavors";
+	}
+	
+}

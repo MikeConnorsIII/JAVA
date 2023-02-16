@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\sir_m\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1012949399.index
+\fruityloops\src\main\java
+C:\Users\sir_m\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2573405483.index
+\mvc\src\main\java

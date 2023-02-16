@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;papoo&apos; in &apos;com.caresoft.clinicapp.AdminUser.assignPin(...)&apos; to &apos;tempPin&apos;&#x0D;&#x0A;- Original project: &apos;Caresoft&apos;&#x0D;&#x0A;- Original element: &apos;com.caresoft.clinicapp.AdminUser.assignPin(int).papoo&apos;&#x0D;&#x0A;- Renamed element: &apos;papoo&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;papoo&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.caresoft.clinicapp{AdminUser.java[AdminUser~assignPin~I@papoo!1852!1867!1856!1860!I!0!false" name="tempPin" references="true" stamp="1676414124039" version="1.0"/>
+</session>

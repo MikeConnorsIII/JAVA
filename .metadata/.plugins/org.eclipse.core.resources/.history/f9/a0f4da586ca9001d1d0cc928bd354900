@@ -1,0 +1,9 @@
+package com.example.demo.controller;
+@RestController
+
+public class ControllerTest {
+	@RequestMapping
+	public String controllerTest() {
+		return "Hello, I am controller test";
+	}
+}
